@@ -32,11 +32,12 @@ CT segmentation snapshots
 #####  torch.no_grad() at the error line
 
 ## Train
-```
+```shell
 python main.py train
 ```
 
 ## Test
 load the last saved weight
-```
+```shell
 python main.py test --ckpt=weights_19.pth
+```
